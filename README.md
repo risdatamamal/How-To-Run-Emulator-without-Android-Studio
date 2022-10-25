@@ -14,14 +14,14 @@ You can make a batch file, that will open your emulator directly without opening
 
 Notes:
 
-4 Replace [YOUR_EMULATOR_DEVICE_NAME] with the device name you created in emulator
+- Replace [YOUR_EMULATOR_DEVICE_NAME] with the device name you created in emulator
 
-5 To get the device name go to: C:\Users\%username%\AppData\Local\Android\sdk\tools
+- To get the device name go to: C:\Users\%username%\AppData\Local\Android\sdk\tools
 
-6 Run cmd and type: emulator -list-avds
+- Run cmd and type: emulator -list-avds
 
-7 Copy the device name and paste it in the batch file
+- Copy the device name and paste it in the batch file
 
-8 Save the file as emulator.bat and close
+- Save the file as emulator.bat and close
 
-9 Now double click on emulator.bat and you got the emulator running!
+- Now double click on emulator.bat and you got the emulator running!
