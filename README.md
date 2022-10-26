@@ -18,10 +18,19 @@ Notes:
 
 - To get the device name go to: C:\Users\%username%\AppData\Local\Android\sdk\tools
 
-- Run cmd and type: emulator -list-avds
+- Run cmd and type: 
+```
+emulator -list-avds
+```
 
-- Copy the device name and paste it in the batch file
+- And you can see [YOUR_EMULATOR_DEVICE_NAME]
 
-- Save the file as emulator.bat and close
+- Run cmd and type: 
+```
+emulator -avd [YOUR_EMULATOR_DEVICE_NAME]
+```
 
-- Now double click on emulator.bat and you got the emulator running!
+Example: 
+```
+emulator -avd Pixel_2_API_27
+```
