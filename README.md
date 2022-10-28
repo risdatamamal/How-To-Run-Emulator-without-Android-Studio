@@ -9,7 +9,7 @@ You can make a batch file, that will open your emulator directly without opening
 3 Copy the next lines into your file:
 ```
  cd /d C:\Users\%username%\AppData\Local\Android\sdk\tools
- emulator @[YOUR_EMULATOR_DEVICE_NAME]
+ emulator -avd @[YOUR_EMULATOR_DEVICE_NAME]
 ```
 
 Notes:
